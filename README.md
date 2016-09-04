@@ -13,3 +13,21 @@ Include this line in `package.json`:
   }
 }
 ```
+
+### Stage 0 decorator-support
+
+Create a `.babelrc` with:
+
+```json
+{
+  "presets": ["react-native-stage-0"]
+}
+```
+
+For experimental legacy decorator support:
+
+```json
+{
+  "presets": ["react-native-stage-0/decorator-support"]
+}
+```
