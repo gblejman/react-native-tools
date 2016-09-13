@@ -1,6 +1,12 @@
 # react-native-tools
 React Native bill of materials
 
+## Install
+
+```sh
+npm i  --save-dev gblejman/react-native-tools#stage-0
+```
+
 ## Displaying lint output in the editor
 
 Include this line in `package.json`:
